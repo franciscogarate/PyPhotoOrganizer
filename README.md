@@ -5,7 +5,7 @@ Also, I include some useful scripts to organize them, depending on the size, cam
 I hope the scripts are clear enough to be understood and customized for beginners python users.
 
 Requirements:
-- python 2.7
+- python 2.7 or 3
 - perl
 - library exiftools (perl)
 
