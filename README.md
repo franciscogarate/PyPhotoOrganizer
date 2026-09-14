@@ -15,7 +15,7 @@ For Mac OS:
 
 Instructions:
 - Images must be in a local folder
-- Fill info_exif.xlsx
+- Fill info_exif.xlsx (use in windows: "dir *.jpg /b > file.csv" or in Linux/Mac: "find . -type f -iname "*.jpg" > file.csv" ) 
 - Following variables must be completed:
         - path
 
