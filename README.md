@@ -15,7 +15,9 @@ For Mac OS:
 
 Instructions:
 - Images must be in a local folder
-- Fill info_exif.xlsx (use in windows: "dir *.jpg /b > file.csv" or in Linux/Mac: "find . -type f -iname "*.jpg" > file.csv" ) 
+- Fill info_exif.xlsx. May be used:
+	- Windows: dir *.jpg /b > file.csv
+ 	-  Linux/Mac: find . -type f -iname "*.jpg" | sort -V > file.csv
 - Following variables must be completed:
         - path
 
