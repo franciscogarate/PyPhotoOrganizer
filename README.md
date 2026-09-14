@@ -31,3 +31,8 @@ Instructions:
 	- path_w
 	- typefile_w
 	- size_w
+
+### Half-framed:
+```
+for f in *.jpg; do magick "$f" -crop 2x1@ +repage -scene 1 "${f%.jpg}_crop_%d.jpg"; done
+```
